@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background: #7dbdc5;
+    color: rgb(0, 0, 0);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+.project-name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+/* Navigation */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #00796b;
+    padding: 12px 0;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #b2dfdb;
+}
+
+
+.content {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #e0f2f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 8px solid #00796b;
+}
+
+
+.content h2 {
+    text-align: center;
+    color: #004d40;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.content p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333;
+    background-color: #b2dfdb;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: justify;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.content .hoat-dong {
+    background-color: #b2dfdb;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+
+.content:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #00796b;
+}
+
+.banner-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.banner-images img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form đăng ký */
+fieldset {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #82dbdb;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #004d40;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #00796b;
+    color: white;
+    margin-top: 30px;
+}
